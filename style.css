@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    height: 85px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 200px;
+    padding-top: 20px;
+    height: 20px;
+}
+
+.luz{
+    text-align: justify;
+    margin-left: 300px;
+    padding-top: 10px;
+}
+
+.pluz{
+    text-align: justify;
+    padding-top: 10px;
+    margin-right: 280px;
+}
+.pluz a{
+    color:white;
+    text-decoration: none;
+}
+
+button{
+    color: white;
+    background-color: blue;
+}
+
+body{
+    background-color: lightgrey;
+    margin: 0px;
+}
+
+aside{
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+section{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.moni{
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 10px;
+    margin-bottom: 200px;    
+}
+
+.moni h1{
+    font-size: larger;
+
+}
+
+.moni p{
+    font-style: normal;
+}
+    
+.moni input{
+    padding-right: 5%;
+}
+
+
+
+.moni h5{
+    text-align:right;   
+}
+
+footer{
+    font-size: larger;
+    text-align: right;
+}
+
+.moni h4{
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+}
+
+.moni button{
+    font-size: 15px;
+    text-align: justify;
+    background-color: green;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 13px;
+}
